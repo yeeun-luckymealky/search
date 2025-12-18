@@ -6,7 +6,6 @@ import { cn } from '@/lib/utils';
 
 const navItems = [
   { href: '/', label: '홈', icon: HomeIcon },
-  { href: '/compare', label: '가격 비교', icon: CompareIcon },
   { href: '/map', label: '탐색', icon: MapIcon },
   { href: '/saved', label: '주문 현황', icon: HeartIcon },
   { href: '/reservations', label: '내 럭키밀', icon: ReservationIcon },
@@ -60,24 +59,6 @@ function HomeIcon({ active }: { active: boolean }) {
     >
       <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
       <polyline points="9 22 9 12 15 12 15 22" />
-    </svg>
-  );
-}
-
-function CompareIcon({ active }: { active: boolean }) {
-  return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="10" />
-      <path d="M12 6v6l4 2" />
     </svg>
   );
 }
