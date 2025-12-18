@@ -7,9 +7,9 @@ import { cn } from '@/lib/utils';
 const navItems = [
   { href: '/', label: '홈', icon: HomeIcon },
   { href: '/compare', label: '가격 비교', icon: CompareIcon },
-  { href: '/map', label: '동네 지도', icon: MapIcon },
-  { href: '/saved', label: '저장', icon: HeartIcon },
-  { href: '/reservations', label: '예약 내역', icon: ReservationIcon },
+  { href: '/map', label: '탐색', icon: MapIcon },
+  { href: '/saved', label: '주문 현황', icon: HeartIcon },
+  { href: '/reservations', label: '내 럭키밀', icon: ReservationIcon },
 ];
 
 export default function BottomNav() {
